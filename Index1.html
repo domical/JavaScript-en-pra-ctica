@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío JavaScript en práctica</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <section class="container">
+    <h1>Escribenos!!!</h1>
+      <form id="contact-form">
+      <div>
+        <label for="name">Nombre completo:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+        <p id="name-error" class="error-message"></p>
+      </div>
+      <div>
+        <label for="issue">Asunto</label>
+        <input type="issue" id="issue" name="issue" placeholder="Asunto" required>
+        <p id="issue-error" class="error-message"></p>
+      </div>
+      <div>
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+        <p id="message-error" class="error-message"></p>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
